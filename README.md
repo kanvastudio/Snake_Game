@@ -43,6 +43,13 @@ chmod +x snake.command
 python3 python.py
 ```
 
+## 🎮 Controls
+
+*   **Arrow Keys:** Change Snake direction.
+*   **p:** Pause / Resume game.
+*   **b:** Quit application.
+
+
 ---
 
 ### Pro-Tip for your GitHub
