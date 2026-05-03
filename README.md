@@ -38,7 +38,7 @@ cd snake-curses
 ```bash
 chmod +x snake.command
 ```
-### You can run the snake.comman in GUI or run python.py in Terminal
+### You can run the `snake.command` in GUI or run `python.py` in Terminal
 ```bash
 python3 python.py
 ```
