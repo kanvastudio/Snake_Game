@@ -26,7 +26,26 @@ This project was developed with a focus on technical problem solving and modular
 
 ## 🔧 Installation & Running
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/yourusername/snake-curses.git](https://github.com/yourusername/snake-curses.git)
-   cd snake-curses# Snake_Game
+### 📂 Important: File Structure
+To ensure the game runs correctly, all project files must be kept together in the **same directory**. The script `python.py` (or `snake.command`) relies on `py_lib.py` being in its local path to import essential game logic.
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/yourusername/snake-curses.git](https://github.com/yourusername/snake-curses.git)
+cd snake-curses
+
+Make the snake.command file executable
+
+chmod +x snake.command
+
+You can run the snake.comman in GUI or run python.py in Terminal
+
+python3 python.py
+
+
+---
+
+### Pro-Tip for your GitHub
+Since your main execution file is named `python.py`, some users might find that confusing (as "python" is the name of the language itself). In the future, you might consider renaming it to `main.py` or `game_engine.py` to follow standard **software development** naming conventions. 
+
+However, for now, this README update clearly explains exactly how a user can get your project up and running! 
