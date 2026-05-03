@@ -4,7 +4,7 @@ import subprocess
 import os
 import sys
 
-
+# open Terminal if closed (MacOS)
 def ensure_terminal():
     # Check if a terminal (TTY) is attached
     if not sys.stdin.isatty():
@@ -21,6 +21,8 @@ def symbleChoose():
     p = next(p for _ in iter(int, 1) if (p := random.randint(0, 7)) != s)
     return bestSnake[s], bestSnake[p] # Return the characters
 
+
+# start screen asking for input
 def startScreen(stdscr, n):
     # Get screen size
     sh, sw = stdscr.getmaxyx()   
@@ -49,7 +51,7 @@ def startScreen(stdscr, n):
             break
     
     
-
+# main function
 def game(stdscr, l):
     timeDelay = [300, 250, 200, 150, 120, 100, 85, 70, 60, 50]
     timeOut = timeDelay[l] # a delay in miliseconds
@@ -81,6 +83,7 @@ def game(stdscr, l):
     # get the symbles
     snake_sym, prey_sym = symbleChoose()
     
+    # pause
     paused = False
     while True:
         key = win.getch()
