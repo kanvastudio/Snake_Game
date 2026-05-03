@@ -34,8 +34,8 @@ To ensure the game runs correctly, all project files must be kept together in th
 git clone [https://github.com/yourusername/snake-curses.git](https://github.com/yourusername/snake-curses.git)
 cd snake-curses
 
-Make the snake.command file executable
-
+### 2. Make the snake.command file executable
+```bash
 chmod +x snake.command
 
 You can run the snake.comman in GUI or run python.py in Terminal
