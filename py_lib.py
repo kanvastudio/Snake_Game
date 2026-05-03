@@ -69,10 +69,10 @@ def game(stdscr, l):
     win = curses.newwin(game_h, game_w, 1, 1) # place the top-left corner of the window 
                                               # one row down and one column in from 
                                               # the very top-left of the terminal
-    win.keypad(1)                             # return a single, easy-to-use constant
-    win.timeout(timeOut)                          # wait for 100 milliseconds for a keypress
+    win.keypad(1)                # return a single, easy-to-use constant
+    win.timeout(timeOut)         # wait for 100 milliseconds for a keypress
     
-        # Initial snake (centered)
+    # Initial snake (centered)
     snake = [(game_h//2, game_w//2 + i) for i in range(3)][::-1]
     direction = (0, 1)
     score = 0
