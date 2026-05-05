@@ -246,7 +246,7 @@ class MenuScreen(Screen):
 
         layout = BoxLayout(orientation='vertical', padding=20, spacing=10)
 
-        layout.add_widget(Label(text="SNAKE", font_size=40))
+        layout.add_widget(Label(text="A Snake game. Ver. 1.05. KanvaStudio", font_size=30))
 
         self.speed = 0.2
 
