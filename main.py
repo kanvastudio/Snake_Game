@@ -1,11 +1,6 @@
 """
 =========================================================
-🐍 RESPONSIVE SNAKE GAME (FIXED CLEAN LAYOUT)
-=========================================================
-- FIX: no overlap between game and controls
-- FIX: correct game field height
-- FIX: compact arrow buttons
-- NEW: Auto-return to menu after crash sound
+🐍 RESPONSIVE SNAKE GAME
 =========================================================
 """
 
@@ -22,9 +17,9 @@ from kivy.uix.widget import Widget  # empty drawable container (game field)
 from kivy.core.window import Window  # access screen size
 from kivy.uix.floatlayout import FloatLayout
 from kivy.graphics import Line # boundary lib
-from kivy.core.audio import SoundLoader # ADDED: sound support
+from kivy.core.audio import SoundLoader # sound support
 
-# ---------------- YOUR GAME LOGIC ----------------
+# ---------------- GAME LOGIC ----------------
 from game_logic import SnakeGame  # external snake rules engine
 
 GAME_OFFSET_Y = 20

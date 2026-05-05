@@ -1,0 +1,6 @@
+#!/Users/thetan76/Desktop/cs61a/Python/build_env/bin/python3.11
+import sys
+from buildozer.scripts.client import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
