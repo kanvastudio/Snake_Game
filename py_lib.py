@@ -4,6 +4,7 @@ import subprocess
 import os
 import sys
 
+
 # open Terminal if closed (MacOS)
 def ensure_terminal():
     # Check if a terminal (TTY) is attached

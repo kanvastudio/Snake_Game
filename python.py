@@ -1,4 +1,4 @@
-# this was the first game of mine, I decided to implement it just for fun
+# this was the first game of mine, I decided to implement it just for
 from py_lib import *
 
 
